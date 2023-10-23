@@ -1,0 +1,17 @@
+from instabot import Bot  
+bot=Bot()
+bot.login(username="vipul3909",password="abscs")
+bot.follow('wscubetechindia')
+bot.follow_user(["machinelearning2023","add2"])
+bot.upload_photo("path of the photo",caption=" hello i am  singh i love to code in python ")
+bot.unfollow('wscubetechindia')
+bot.like('wscubetechindia')
+bot.send_message("i love to code in python",["machinelearning2023","vipul3909"])
+followers=bot.get_user_follower("vipul3909")
+for i in followers:
+    print(bot.get_user_info(i))  
+    # give information of all follower hence this function is used basically it will give all follower list
+
+following=bot.get.get_user_following("vipul3909")
+for i in following:
+    print(bot.get_user_following(i)) 
