@@ -3,7 +3,7 @@ import time
 
 
 end_time=datetime.datetime(2024,12,3)
-site_block=["pornhat.com","xhmester.com","instagam.com"]
+site_block=["pornhat.com","xhmester.com","instagam.com","hello.com"]
 host_path="C:/Windows/System32/drivers/etc/hosts"
 redirect="127.0.0.1"
 while True:
